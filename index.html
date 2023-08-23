@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/mainStyle.css"/>
+  <link href="./assets/style/css/modal.css" rel="stylesheet"/>
+</head> 
+<body>
+  <header>
+    <div class="brand">
+      <img src="./assets/image/logo.png" alt="brand logo" />
+    </div>
+    <div class="search-container">
+      <form>
+        <div class="search">
+          <input type="text" placeholder="text"/>
+          <button>Search</button>
+        </div>
+      </form>
+    </div>
+    <div class="user-profile">
+      <ul class="user-profile-ul">
+        <li class="user-profile-li">
+          <div class="item-container profile">
+            <div class="image-container">
+              <img src="./assets/image/user.png" alt="list item image"/>
+            </div>
+            <span>profile</span>
+            <div class="dropdown">
+              <ul class="dropdown-ul">
+                <li><span>Profile</span></li>
+                <li><span>Settings</span></li>
+              </ul>
+              <div class="logout-button">
+                <button>Log Out</button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="user-profile-li">
+          <div class="item-container">
+            <div class="image-container">
+              <img src="./assets/image/user.png" alt="list item image"/>
+            </div>
+            <span>message</span>
+          </div>
+        </li>
+        <li class="user-profile-li">
+          <div class="item-container">
+            <div class="image-container">
+              <img src="./assets/image/user.png" alt="list item image"/>
+            </div>
+            <span>orders</span>
+          </div>
+        </li>
+        <li class="user-profile-li">
+          <div class="item-container cart" data-count="0">
+            <div class="image-container">
+              <img src="./assets/image/user.png" alt="list item image"/>
+            </div>
+            <span>my cart</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="burger-menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+  <main>
+    <div>
+      <div class="open_filters">
+        <img src="./assets/image/down-chevron.png"/>
+      </div>
+      <div id="left" class="main-side">
+        <div class="filters-list">
+          <ul class="filters-list-ul">
+            <li class="filters-list-li">
+              <div class="filters active">
+                <div class="filters-header">
+                  <h3 class="filters-title">
+                    Category
+                  </h3>
+                  <img src="./assets/image/down-chevron.png"  alt="categoty arrow"/>
+                </div>
+                <div class="filters-body">
+                  <ul class="category-list">
+                    <li class="category-list-li">
+                      <span>
+                        Mobile accessory
+                      </span>
+                    </li>
+                    <li class="category-list-li">
+                      <span>
+                        Electronics
+                      </span>
+                    </li>
+                    <li class="category-list-li">
+                      <span>
+                        Smartphones 
+                      </span>
+                    </li>
+                    <li class="category-list-li">
+                      <span>
+                        Modern tech
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="see_all">
+                  <span>
+                    See all
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="filters-list-li">
+              <div class="filters active">
+                <div class="filters-header">
+                  <h3 class="filters-title">
+                    Brands
+                  </h3>
+                  <img src="./assets/image/down-chevron.png"  alt="categoty arrow"/>
+                </div>
+                <div class="filters-body">
+                  <form>
+                    <ul class="category-list">
+                      <li class="category-list-li">
+                        <div class="category-list-item-container">
+                          <input type="checkbox" id="samsung" />
+                          <label for="samsung">samsung</label>
+                        </div>
+                      </li>
+                      <li class="category-list-li">
+                        <div class="category-list-item-container">
+                          <input type="checkbox" id="apple" />
+                          <label for="apple">apple</label>
+                        </div>
+                      </li>
+                      <li class="category-list-li">
+                        <div class="category-list-item-container">
+                          <input type="checkbox" id="huawei"/>
+                          <label for="huawei">huawei</label>
+                        </div>
+                      </li>
+                      <li class="category-list-li">
+                        <div class="category-list-item-container">
+                          <input type="checkbox" id="lenovo"/>
+                          <label for="lenovo">lenovo</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+                <div class="see_all">
+                  <span>
+                    See all
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="filters-list-li">
+              <div class="filters">
+                <div class="filters-header">
+                  <h3 class="filters-title">
+                    Price range
+                  </h3>
+                  <img src="./assets/image/down-chevron.png"  alt="categoty arrow"/>
+                </div>
+              </div>
+            </li>
+            <li class="filters-list-li">
+              <div class="filters">
+                <div class="filters-header">
+                  <h3 class="filters-title">
+                    Price range
+                  </h3>
+                  <img src="./assets/image/down-chevron.png"  alt="categoty arrow"/>
+                </div>
+              </div>
+            </li>
+            <li class="filters-list-li">
+              <div class="filters">
+                <div class="filters-header">
+                  <h3 class="filters-title">
+                    Price range
+                  </h3>
+                  <img src="./assets/image/down-chevron.png"  alt="categoty arrow"/>
+                </div>
+              </div>
+            </li>
+            <li class="filters-list-li">
+              <div class="filters">
+                <div class="filters-header">
+                  <h3 class="filters-title">
+                    Price range
+                  </h3>
+                  <img src="./assets/image/down-chevron.png"  alt="categoty arrow"/>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="right" class="main-side">
+        <div class="products-list-container">
+          <ul class="producst-list-ul">         
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="modal-container">
+      <div class="modal">
+        <h3 class="error-text">Are you Sure you want to log out?</h3>
+        <div class="button-container">
+          <button class="yes" type="button">Yes</button>
+          <button class="no" type="button">No</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./assets/script/data.js"></script>
+  <script src="./assets/script/renderList.js"></script>
+  <script src="./assets/script/filters.js"></script>
+  <script src="./assets/script/index.js"></script>
+</body>
+</html>
