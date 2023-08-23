@@ -32,5 +32,7 @@ const handleProfileChange = () => {
 handleProfileChange()
 
 cartMenuItem.addEventListener('click', () => {
-  window.location.href = 'file:///E:/Digital%20Institute/20.dom-practice/pages/cart.html'
+
+  // here down below should be the link of the cart file!!!
+  // window.location.href = 'link of  the file'
 })
